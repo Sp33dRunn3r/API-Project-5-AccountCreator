@@ -1,6 +1,7 @@
-# This is an alternative way to create the API for the given front-end. Utilizes
-# the "flask-restx" library which creates a more simplistic form of accessing
-# and modifying data through visually represented HTTP requests.
+# This is an alternative way to create the API for the given front-end.
+# These are the primary routes used for the project. Different from regular "app.routes",
+# these routes utilize the "flask-restx" library, which creates a more simplistic form of accessing
+# and modifying data through visually represented HTTP requests. They are represented through port:5000.
 
 
 from flask import Flask, jsonify, request
